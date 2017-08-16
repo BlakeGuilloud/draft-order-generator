@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.App-header {
+  height: 13vh;
+}
+
+.App-content {
+  height: 82vh;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  overflow: scroll;
+}
+
+form {
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  flex: 1;
+}
+
+button {
+  color: #2b3e50;
+}
+
+.App-footer {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+li {
+  text-decoration: none;
+}
+
+.list-group-item {
+  margin-bottom: 20px;
+}
+
+#generate {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.order {
+  color: blue;
+}
